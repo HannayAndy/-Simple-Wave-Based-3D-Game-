@@ -73,7 +73,7 @@ Select **Create.**
 
 You will see a scene with a flat ground and an empty environment *(N.B. your layout will probably look different to the image below).*
 
-![](C:\Users\andre\Dropbox\Sole Trader.Andrew Maurice Hannay\Support work\resources\unity resources\My Lessons\newscene.jpg)
+![](newscene.jpg)
 
 Press play at the top of the editor to try your new scene out. 
 
