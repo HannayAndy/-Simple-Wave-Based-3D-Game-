@@ -4,8 +4,7 @@
 
 [TOC]
 
-![titleImage](C:\Users\andre\Dropbox\Sole Trader.Andrew Maurice Hannay\Support work\resources\unity resources\My Lessons\titleImage.jpg)
-
+![titleImage](titleImage.jpg)
 
 
 ## Lesson Requirements: 
@@ -58,7 +57,7 @@ Once the project has downloaded, click "Open Project"
 
 The Project will now open (*This may take a little while*).
 
-![openProject](C:\Users\andre\Dropbox\Sole Trader.Andrew Maurice Hannay\Support work\resources\unity resources\My Lessons\openProject.jpg)
+![openProject](openProject.jpg)
 
 
 
