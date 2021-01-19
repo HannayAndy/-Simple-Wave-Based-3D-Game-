@@ -8,6 +8,8 @@
 
 
 
+### Created by Andrew Hannay: andrew.hannay@gmail.com
+
 ## Lesson Requirements: 
 
 Unity Version 2018.3.0 or higher:  [https://unity3d.com/get-unity/download](https://unity3d.com/get-unity/download)
