@@ -246,9 +246,9 @@ The next line "instantiates"  or makes a copy of our object in the game world. T
 
 - The object you want to create a copy of (the chomper prefab)
 
-- The objects position in the 3D space of the game world (our already defined spawnPoint variable)
+- The object's position in the 3D space of the game world (our already defined spawnPoint variable)
 
-- The objects rotation in 3D space (this this case, we just used the prefabs existing rotation)
+- The object's rotation in 3D space (this this case, we just used the prefabs existing rotation)
 
 Now save your scrip and run your game, your chomper should appear in the game world just after running. Quick kill it!!!
 
@@ -256,9 +256,9 @@ Now save your scrip and run your game, your chomper should appear in the game wo
 
 ## Step 5. Spawning Enemies to a Random Position
 
-Now we have our enemy spanner set up, and it is spawning our chomper into the game. Now let's make it spawn in at a random position, rather than the same point each time. 
+Now we have our enemy spawner set up, and it is spawning our chomper into the game. Now let's make it spawn in at a random position, rather than the same point each time. 
 
-In your SpawnEnemy script. Now recall that we set the position with the Vector 3 we defined earlier, which has and x,y & z, component. To create a random position, we will need to generate a random number assinged to our x and y values (y is up and down, so we will leave that as 0). 
+In your SpawnEnemy script, recall that we set the position with the Vector 3 we defined earlier, which has and x,y & z, component. To create a random position, we will need to generate a random number assigned to our x and y values (y is up and down, so we will leave that as 0). 
 
 To do this, back near the start of your script, below where you declared the variable for the chomper, (public GameObject chomperPrefab;) create two new variable using the following two lines:
 
@@ -310,7 +310,7 @@ public class SpawnEnemy : MonoBehaviour
 }
 ```
 
-Now test your game by running it and stopping, then running again a few times. Your should now find that the chomper spawns in at a different position each time! Arrays are like a list, and allow you to store multiple objects in a single variable. 
+Now test your game by running it and stopping, then running again a few times. Your should now find that the chomper spawns in at a different position each time! 
 
  
 
@@ -318,7 +318,7 @@ Now test your game by running it and stopping, then running again a few times. Y
 
 ## Step 6. Spawning Random Enemies from a List
 
-So, now we have our enemy spawning in to a random position, but it is always the same enemy type. Later on when we create growing waves, we will want to have some variety, so, we will set up an "array" and randomly choose which enemy to spawn in. 
+So, now we have our enemy spawning in to a random position, but it is always the same enemy type. Later on when we create growing waves, we will want to have some variety, so, we will set up an "array" and randomly choose which enemy to spawn in. Arrays are like a list, and allow you to store multiple objects in a single variable. 
 
 To create our array, we add the following line to our SpawnEnemy list, add it at the top, just under the other variables for x and zRange:
 
@@ -333,7 +333,7 @@ Save your script and switch back to the Unity editor. Select your EnemySpawner G
 
 
 
-No we will populate these two empty slots. In the project window, navigate to **Assets > 3DGamekitLite > Prefabs > Characters > Enemies** . You will notice there are two folders, chomper and spitter, each with a prefab and a "ragdoll". Ignore the ragdoll for now, and drag both the chomper and spitter prefabs into the empty slots in your enemy prebas array under the EnemySpawner object. 
+No we will populate these two empty slots. In the project window, navigate to **Assets > 3DGamekitLite > Prefabs > Characters > Enemies** . You will notice there are two folders, chomper and spitter, each with a prefab and a "ragdoll". Ignore the ragdoll for now, and drag both the chomper and spitter prefabs into the empty slots in your enemy prefabs array under the EnemySpawner object. 
 
 ![array2]( array2.png)
 
